@@ -13,7 +13,7 @@ global $username;
 global $password;
 global $database;
 
-$servername = "localhost:3307";
+$servername = "localhost:3306";
 $username = "usu@Clinica";
 $password = "php@PUCPR";
 $database = "ClinicaA";
