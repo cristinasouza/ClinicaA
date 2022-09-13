@@ -14,7 +14,7 @@ global $password;
 global $database;
 
 $servername = "localhost:3306";
-$username = "usu@Clinica";
+$username = "usu@clinica";
 $password = "php@PUCPR";
 $database = "ClinicaA";
 ?>
