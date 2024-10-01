@@ -61,7 +61,7 @@
                 mysqli_query($conn,'SET character_set_results=utf8');
 
                 // Faz Select na Base de Dados
-                $sql = "SELECT ID_Medico, CRM, Nome, Nome_Espec AS Especialidade, Foto, Dt_Nasc FROM Medico AS M INNER JOIN Especialidade AS E ON (M.ID_Espec = E.ID_Espec) ORDER BY Nome";
+                $sql = "SELECT ID_Medico, CRM, Nome, Nome_Espec AS Especialidade, Foto, Dt_Nasc FROM Medico AS M INNER JOIN Especialidade AS E ON (M.ID_Espec = E.ID_Espec)  ORDER BY Nome";
                 echo "<div class='w3-responsive w3-card-4'>";
                 if ($result = mysqli_query($conn, $sql)) {
                     echo "<table class='w3-table-all'>";
